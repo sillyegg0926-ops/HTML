@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .span1{
+            border: 3px solid red;
+        }
+        .span2{
+            border: 3px solid red;
+            margin-left: 10px ;
+            margin-top: 10px;
+           /* padding: 10px; */
+           padding-top: 10px ;
+           padding-bottom: 10px;
+           padding-right: 15px;
+           padding-left: 10px;
+        }
+        .span2 .span2-inner{
+            border: 3px solid red;
+            margin-left: 10px ;
+        }
+        .div{
+            border: 3px solid red;
+             margin-top: 30px ;
+            width: 100px;
+               padding-top: 10px ;
+           padding-bottom: 10px;
+           padding-right: 20px;
+           padding-left: 50px;
+       
+        }
+        .div .span3-inner1{
+            border: 3px solid red;
+          
+        }
+        .div .span3-inner2{
+           border: 3px solid red;
+        
+        }
+    </style>
+</head>
+<body>
+    <span class="span1">span</span>
+    <span class="span2">
+        <span class="span2-inner">span2</span>
+    </span>
+    <div class="div">
+        <span class="span3-inner1">1</span>
+        <span class="span3-inner2">2</span>
+    </div>
+</body>
+</html>
